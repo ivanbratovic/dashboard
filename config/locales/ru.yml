@@ -11,3 +11,4 @@ ru:
   settings_generate_colors: "Сгенерировать цвета"
   executor_not_set: "Не установлен"
   label_all: "Все"
+  goto_project: ""
