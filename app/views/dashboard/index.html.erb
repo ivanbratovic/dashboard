@@ -29,7 +29,7 @@
 
 <% if @selected_project_id > 0 %>
         <div class="select_project_container">
-                <%= link_to "Go to selected project", project_path(@selected_project_id), class: "goto_project_item" %>
+                <%= link_to t("goto_project"), project_path(@selected_project_id), class: "goto_project_item" %>
         </div>
 <% end %>
 
