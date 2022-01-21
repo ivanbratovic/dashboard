@@ -28,8 +28,8 @@
 <% end %>
 
 <% if @selected_project_id > 0 %>
-        <div class="select_project_container">
-                <%= link_to t("goto_project"), project_path(@selected_project_id), class: "goto_project_item" %>
+        <div class="goto_project_container" align="right">
+                <%= link_to t("goto_project"), project_path(@selected_project_id), id: "goto_project_item" %>
         </div>
 <% end %>
 
