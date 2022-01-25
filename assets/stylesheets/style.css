@@ -44,7 +44,7 @@
 #goto_project_item {
 	display: block;
 	align: right;
-	padding-top: 8px;
+	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -58,7 +58,16 @@
 	background-color: #3E5B76;
 	min-width: fit-content;
 	justify-content: center;
+	opacity: 0.9;
+	transition: opacity .1s ease-in-out;
 }
+
+#goto_project_item:hover {
+	opacity: 1;
+	cursor: pointer;
+	text-decoration: none;
+}
+
 
 .issues_container {
 	display: flex;
