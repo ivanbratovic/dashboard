@@ -41,7 +41,7 @@
 	align: right;
 }
 
-#goto_project_item {
+#goto_project_button {
 	display: block;
 	align: right;
 	padding-top: 5px;
@@ -62,12 +62,11 @@
 	transition: opacity .1s ease-in-out;
 }
 
-#goto_project_item:hover {
+#goto_project_button:hover {
 	opacity: 1;
 	cursor: pointer;
 	text-decoration: none;
 }
-
 
 .issues_container {
 	display: flex;
